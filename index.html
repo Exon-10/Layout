@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="normalize.css">
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="Icomoon/icomoon2/style.css">
     <script src="menu.js"></script>
     <title>Layout-Blog</title>
 </head>
@@ -13,16 +14,18 @@
 
     
     <!------------------------------Header---------------------------->
-    
-        <header class="head_p">
+    <span class="menu" onclick="menu(i)">.<br>.<br>.</span>
+        <header class="head_p" id="head">
 
     
                 <h1 class="h1">Blog de Viajes</h1>
 
-        
+        <script>
+           var i=1;
+        </script>
     
-           
-                <div class="nav">
+                
+                <div class="nav" id="nav">
                     <a href="#">Inicio</a>
                     <a href="#">Nosotros</a>
                     <a href="#">Blog</a>
@@ -33,6 +36,11 @@
 
             <div class="leyenda">
                 <p class="p">Tu compañero para tu proximo viaje</p>
+                <div class="iconos">
+                    <span class="icon-facebook icono"></span>
+                    <span class="icon-instagram icono"></span>
+                    <span class="icon-twitter icono"></span>
+                </div>
             </div>
             
         </header>
