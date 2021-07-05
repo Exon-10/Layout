@@ -77,11 +77,11 @@ body{
     display: block;
     position: absolute;
     top: 0rem;
-    font-size: 4rem;
+    font-size: 3rem;
     margin-left: 2rem;
     margin-top: 0.5rem;
     color: #1b4644c1;
-    line-height: 1rem;
+    line-height: 0.5rem;
     cursor: pointer;
     -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
 }
